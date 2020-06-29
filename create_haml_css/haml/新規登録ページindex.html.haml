@@ -1,0 +1,31 @@
+.header
+.main
+  .main-box
+    .main-box__header
+      .main-box__header__info
+        会員情報入力
+    .main-box__border 
+    /ボーダーを最後に修正高さもあえて高くしている
+    .main-box__form
+      .form
+        .form-group
+          = link_to "#", class: "contents__btn" do
+            メールアドレスで登録する
+        .form-group
+          = link_to "#", class: "contents__btn__google" do
+            Googleで登録する
+        .form-group
+          = link_to "#", class: "contents__btn__facebook" do
+            Facebookで登録する
+        .form-group
+          = link_to "#", class: "contents__btn__apple" do
+            Appleで登録する
+
+
+
+.footer
+  .footer-box
+    プライバシーポリシー &nbsp;
+    利用規約 &nbsp;
+    特定商取引に関する表記
+      

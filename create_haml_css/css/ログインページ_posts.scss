@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+.header {
+  height: 128px;
+  width: 100vw;
+  background-color: red;
+}
+
+.main{
+  height: 812px;
+  width: 100vw;
+  background-color: blue;
+  &-box {
+    background-color: green;
+    width: 456px;
+    margin: 0 auto;
+    &__header {
+      height: 144px;
+      background-color: yellow;
+      &__info {
+        margin: 0 auto;
+        background-color: white;
+        text-align: center;
+      }
+    }
+    &__border {
+      height: 1px;
+      background-color: white;
+    }
+    &__form {
+      height: 262px;
+      margin: 40px 40px 0 40px;
+      background-color: violet;
+    }
+  }
+}
+
+.form {
+  width: 343px;
+  background-color: white;
+  margin: 0 auto ;
+  height: 262px;
+  &-group {
+    width: 343px;
+    margin: 0 auto;
+    text-align: center;
+    border: none;
+    height: 50px;
+    margin-top: 15px;
+    background-color: pink;
+    .contents__btn {  /*新規会員登録*/
+      text-decoration: none;
+      font-size: 14px;
+      line-height: 50px;
+      border-radius: 10px;
+      display: block;
+      color: white;
+    }
+    .contents__btn__google {  /*Googleでログイン*/
+      text-decoration: none;  /*下線を削除*/
+      font-size: 14px;
+      line-height: 50px;
+      display: block; /*リンクをブロックにする*/
+      color: white; /*文字が白だったので白にする*/
+    }
+    .contents__btn__facebook {  /*Facebookでログイン*/
+      text-decoration: none;
+      font-size: 14px;
+      line-height: 50px;
+      display: block;
+      color: white;
+    }
+    .contents__btn__apple {  /*Appleでログイン*/
+      text-decoration: none;
+      font-size: 14px;
+      line-height: 50px;
+      display: block;
+      color: white;
+    }
+    }
+  }
+.form-login { /*ログイン部分*/
+
+}
+
+.footer {
+  width: 100vw;
+  height: 220px;
+  background-color: pink;
+  &-box {
+    margin: 0 auto;
+    height: 200px;
+    width: 456px;
+    text-align: center;
+    padding-top: 40px;
+  }
+
+}

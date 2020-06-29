@@ -1,0 +1,132 @@
+/* 登録ページのCSS作成中 */
+.header {
+  height: 128px;
+  width: 100vw;
+  background-color: red;
+}
+
+.main{
+  height: 1237px;
+  width: 100vw;
+  background-color: blue;
+  &-box {
+    background-color: green;
+    width: 700px;
+    margin: 0 auto;
+    &__header {
+      height: 100px;
+      background-color: yellow;
+      &__info {
+        margin: 0 auto;
+        background-color: white;
+        width: 636px;
+        text-align: center;
+      }
+    }
+    &__border {
+      height: 1px;
+      background-color: white;
+    }
+    &__form {
+      height: 1035px;
+      margin: 40px 40px 0 40px;
+      background-color: violet;
+    }
+  }
+}
+
+.form {
+  width: 343px;
+  height: 808px;
+  background-color: white;
+  margin: 0 auto;
+  &-group {
+    height: 70px;
+    width: 343px;
+    margin: 32px 0 0 0;
+    }
+  }
+
+.label-group {
+  background-color: red;
+  display: flex;
+  height: 20px;
+  &__label {
+    color: blue;
+  }
+  &__require {
+    margin: 0 0 0 8px;
+    color: green;
+  }
+  &__text {
+    background-color: yellow;
+  }
+}
+
+.input {
+  height: 50px;
+  background-color: blue;
+}
+
+.input-half {
+  height: 50px;
+  background-color: yellow;
+  display: flex;
+  &__left {
+    height: 50px;
+    width: calc(50% - 10px);
+    background-color: green;
+    margin: 0 5px 0 5px;
+  }
+  &__right {
+    height: 50px;
+    width: calc(50% - 10px);
+    background-color: red;
+    margin: 0 5px 0 5px 0;
+  }
+}
+
+.select {
+  display: flex;
+  &-left {
+    height: 50px;
+    width: 70px;
+    background-color: black;
+  }
+  &-center {
+    height: 50px;
+    width: 70px;
+    background-color: yellow;
+  }
+  &-right {
+    height: 50px;
+    width: 70px;
+    background-color: blue;
+  }
+}
+
+.form-footer {
+  &__box {
+    width: 343px;
+    background-color: pink;
+    margin: 0 auto;
+    .form-group__next {
+      background-color: yellow;
+      &__submit {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.footer {
+  height: 200px;
+  display: flex;
+  &-box {
+    height: 140px;
+    width: 456px;
+    margin: auto;
+    background-color: red;
+  }
+}
+

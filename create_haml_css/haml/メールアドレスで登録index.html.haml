@@ -1,0 +1,114 @@
+/登録ページを作成中
+.header
+.main
+  .main-box
+    .main-box__header
+      .main-box__header__info
+        %h1 会員情報入力
+    .main-box__border 
+    /ボーダーを最後に修正高さもあえて高くしている
+    .main-box__form
+      .form
+        .form-group
+          .form__group__nickname
+            .label-group
+              .label-group__label
+                ニックネーム
+              .label-group__require
+                必須
+            .input
+              .input-form
+        .form-group
+          .form-group__mail
+            .label-group
+              .label-group__label
+                メールアドレス
+              .label-group__require
+                必須
+            .input
+              .input-form
+        .form-group
+          .form-group__pass
+            .label-group
+              .label-group__label
+                パスワード
+              .label-group__require
+                必須
+            .input
+              .input-form
+        .form-group
+          .form-group__pass
+            .label-group
+              .label-group__label
+                パスワード確認
+              .label-group__require
+                必須
+            .input
+              .input-form
+                
+        .form-group
+          .form-group__pass
+            .label-group
+              .label-group__label
+                本人確認
+            .input
+              .input-form
+        .form-group
+          .form-group__name
+            .label-group
+              .label-group__label
+                お名前（全角）
+              .label-group__require
+                必須
+            .input
+              .input-half
+                .input-half__left
+                .input-half__right
+        .form-group
+          .form-group__kana
+            .label-group
+              .label-group__label
+                お名前ふりがな（全角）
+              .label-group__require
+                必須
+            .input
+              .input-half
+                .input-half__left
+                .input-half__right
+        .form-group
+          .form-group__old
+            .label-group
+              .label-group__label
+                生年月日
+              .label-group__require
+                必須
+            .select
+              .select-left
+              .years
+                年
+              .select-center
+              .years
+                月
+              .select-right
+              .years
+                日
+      .form-footer
+        /footerの大本
+        .form-footer__box
+          /子を作成しておく
+          .form-group
+            .form-group__next
+              next
+          .form-group
+            .form-group__next
+              %form.form-group__next__submit
+                %input{type: "submit"}
+
+.footer
+  .footer-box
+    %ul
+      %li リスト1
+      %li リスト2
+      %li リスト3
+    footer-box
+
